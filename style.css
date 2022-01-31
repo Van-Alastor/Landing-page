@@ -1,0 +1,22 @@
+body {
+    background-color: slateblue;
+    margin: 0;
+
+}
+
+.first_section {
+    background-color: skyblue;
+    padding: 8px;
+}
+
+.second_section {
+    background-color: lightgreen;
+}
+
+.third_section {
+    background-color: lightgrey;
+}
+
+.fourth_section {
+    background-color: lightpink;
+}
