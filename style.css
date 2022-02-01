@@ -6,8 +6,30 @@ body {
 
 .first_section {
     background-color: skyblue;
-    padding: 8px;
+
+
 }
+
+.bar {
+    background-color: lime;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.logo {
+    padding-left: 150px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding-right: 150px;
+}
+
 
 .second_section {
     background-color: lightgreen;
