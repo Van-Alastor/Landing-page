@@ -30,9 +30,48 @@ ul {
     padding-right: 150px;
 }
 
+.container_landing {
+    background-color: sandybrown;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.msg_landing {
+    flex-direction: column;
+}
+
+.img_landing {
+    margin-right: 150px;
+
+}
+
+img{
+    margin: 22px 0;
+    width: 500px;
+    height: 300px;
+}
 
 .second_section {
     background-color: lightgreen;
+    text-align: center;
+}
+
+.title_pics {
+    background-color: royalblue;
+    
+}
+
+.pictures {
+    background-color: silver;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
 }
 
 .third_section {
