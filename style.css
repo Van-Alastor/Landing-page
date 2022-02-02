@@ -1,17 +1,18 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
-    background-color: slateblue;
     margin: 0;
 
 }
 
 .first_section {
-    background-color: skyblue;
-
+    background-color: #1F2937;
 
 }
 
 .bar {
-    background-color: lime;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +22,9 @@ body {
 
 .logo {
     padding-left: 150px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -30,60 +34,142 @@ ul {
     padding-right: 150px;
 }
 
+li, p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .container_landing {
-    background-color: sandybrown;
     padding-left: 150px;
     display: flex;
-    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .msg_landing {
     flex-direction: column;
+    display: flex;
 }
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.btn_one {
+    padding: 5px;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    margin-right: 350px;
+}
+
 
 .img_landing {
-    margin-right: 150px;
-
+    margin: 0 150px;
 }
 
-img{
+.front_img{
     margin: 22px 0;
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
 }
 
 .second_section {
-    background-color: lightgreen;
+    background-color: white;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .title_pics {
-    background-color: royalblue;
-    
+    padding: 40px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.container_pics {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .pictures {
-    background-color: silver;
-    justify-content: center;
-    flex-direction: row;
-    gap: 20px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid  #3882F6;
+    border-radius: 20px;
+    max-width: 200px;
 }
 
-h2 {
-    margin-top: 0;
-    text-align: center;
+.pic_text {
+    color: gray;
+    margin-top: 5px;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
 
 .third_section {
     background-color: lightgrey;
 }
 
+.quote {
+    display: flex;
+    padding: 0 350px;
+    padding-top: 50px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
 .fourth_section {
-    background-color: lightpink;
+    background-color: white;
+    margin-top: 0;
+    padding: 30px;
+}
+
+.card {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 250px;
+    align-items: center;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.card_btn {
+    padding-right: 50px;
+}
+
+.btn_two {
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 10px;
+    
 }
 
 footer {
-    background-color: lightyellow;
+    background-color: darkgoldenrod;
     display: flex;
     padding: 50px;
     justify-content: center;
